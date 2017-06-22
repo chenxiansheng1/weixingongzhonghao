@@ -9,10 +9,10 @@ cookie = {}
 browser.get(url)
 time.sleep(2)
 browser.find_element_by_xpath('//*[@id="account"]').clear()
-browser.find_element_by_xpath('//*[@id="account"]').send_keys('614207727@qq.com')
+browser.find_element_by_xpath('//*[@id="account"]').send_keys('username')
 
 browser.find_element_by_xpath('//*[@id="pwd"]').clear()
-browser.find_element_by_xpath('//*[@id="pwd"]').send_keys('aa135355')
+browser.find_element_by_xpath('//*[@id="pwd"]').send_keys('password')
 
 browser.find_element_by_xpath('//*[@id="loginForm"]/div[3]/label/i').click()
 browser.find_element_by_xpath('//*[@id="loginBt"]').click()
